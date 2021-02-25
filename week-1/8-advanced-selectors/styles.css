@@ -1,1 +1,14 @@
 /* Try different box model properties below */
+div [class="site-header"] > p {
+  color: white;
+  margin-bottom: 1px;
+}
+
+div [class="site-footer"] > p {
+  font-size: 12px;
+  text-align: center;
+}
+
+div [class="messages"] > div[class="message message--unread"] {
+  box-shadow: 4px 4px 0 #dba944;
+}
